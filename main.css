@@ -9,12 +9,30 @@
 	background-attachment: fixed;
 	background-position:  center -50px;
 }
+.banner2 {
+  background-image:url('images/MichelleObama_banner.jpg');
+  padding: 10%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  background-attachment: fixed;
+  background-position:  center 10px;
+}
 .banner h1 {
 	position: absolute;
 	top:18;
 	left:0;
 	padding-left: 30px;
 	color: #CFC7C4;
+}
+.banner2 h1 {
+  position: absolute;
+  top:18;
+  left:0;
+  padding-left: 30px;
+  color: #CFC7C4;
 }
 .events {
   padding-bottom: 30px;
@@ -25,7 +43,6 @@ p {
   font-size: 14px;
   font-family: arial;
   padding-top: 10px;
-  padding-bottom: 10px;
   padding-left: 30px;
   padding-right: 30px;  
 }
@@ -50,4 +67,10 @@ p {
   background-color: black;
   color: white;
   padding: 20px;
+}
+.divider {
+	border-top: 1px solid #CFC7C4;
+	margin-left: 200px;
+	margin-right: 200px;
+	text-align: center;
 }
